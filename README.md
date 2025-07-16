@@ -1,4 +1,4 @@
-🧠 Mini GPT Chatbot using Ollama + DeepSeek-R1
+## 🧠 Mini GPT Chatbot using Ollama + DeepSeek-R1
 
 A lightweight, fully local ChatGPT-like AI chatbot built using the DeepSeek-R1 model and Ollama, wrapped in an elegant Streamlit interface.
 
