@@ -32,9 +32,9 @@ This chatbot features a real-time thinking phase, response streaming, and an int
         git clone https://github.com/yourusername/mini-gpt-chatbot.git
         cd mini-gpt-chatbot
 
-= Install dependencies
+- Install dependencies
 
-    pip install streamlit ollama
+            pip install streamlit ollama
 
 - Run Ollama server
 
@@ -53,17 +53,17 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 - 
 ## 🧠 How It Works
 
-    Messages are passed to the DeepSeek-R1 model via the Ollama API
+- Messages are passed to the DeepSeek-R1 model via the Ollama API
 
-    The model generates output in two phases:
+- The model generates output in two phases:
 
-        A reasoning phase enclosed in <think>...</think> tags
+-- A reasoning phase enclosed in <think>...</think> tags
 
-        A final answer after the reasoning
+-- A final answer after the reasoning
 
-    The UI shows the reasoning in an expandable box and the final response below it
+- The UI shows the reasoning in an expandable box and the final response below it
 
-    Entire conversation state is cached in st.session_state
+- Entire conversation state is cached in st.session_state
 
 ## 📁 Project Structure
 
