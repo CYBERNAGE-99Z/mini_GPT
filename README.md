@@ -50,7 +50,7 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 - streamlit run main.py
 
 - Interact via the chat interface. The assistant will first “think” (display reasoning in an expandable section) and then provide a final answer.
-- 
+
 ## 🧠 How It Works
 
 - Messages are passed to the DeepSeek-R1 model via the Ollama API
