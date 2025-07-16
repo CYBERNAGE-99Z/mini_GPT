@@ -1,10 +1,10 @@
-## 🧠 Mini GPT Chatbot using Ollama + DeepSeek-R1
+# 🧠 Mini GPT Chatbot using Ollama + DeepSeek-R1
 
 A lightweight, fully local ChatGPT-like AI chatbot built using the DeepSeek-R1 model and Ollama, wrapped in an elegant Streamlit interface.
 
 This chatbot features a real-time thinking phase, response streaming, and an intuitive chat UI — all in a single Python file!
 
-🚀 Features
+##🚀 Features
 
     🔮 Streamed Responses from DeepSeek-R1 via Ollama
 
@@ -16,7 +16,7 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 
     🖼️ Inline Logo Support with Base64 image encoding
 
-🛠️ Requirements
+##🛠️ Requirements
 
     Python 3.9+
 
@@ -26,7 +26,7 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 
 ollama pull deepseek-r1
 
-📦 Installation
+##📦 Installation
 
     Clone the repository
 
@@ -51,7 +51,8 @@ Run the Streamlit app:
 streamlit run main.py
 
 Interact via the chat interface. The assistant will first “think” (display reasoning in an expandable section) and then provide a final answer.
-🧠 How It Works
+
+##🧠 How It Works
 
     Messages are passed to the DeepSeek-R1 model via the Ollama API
 
@@ -65,7 +66,7 @@ Interact via the chat interface. The assistant will first “think” (display r
 
     Entire conversation state is cached in st.session_state
 
-📁 Project Structure
+##📁 Project Structure
 
 mini-gpt-chatbot/
 ├── main.py               # Main Streamlit UI script
@@ -73,10 +74,10 @@ mini-gpt-chatbot/
 └── README.md             # Project documentation
 
 
-📃 License
+##📃 License
 
 This project is open-source and available under the MIT License.
-🙌 Acknowledgements
+##🙌 Acknowledgements
 
     Ollama for making local LLMs easy to run
 
