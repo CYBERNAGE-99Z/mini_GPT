@@ -57,9 +57,9 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 
 - The model generates output in two phases:
 
--- A reasoning phase enclosed in <think>...</think> tags
+  - A reasoning phase enclosed in <think>...</think> tags
 
--- A final answer after the reasoning
+  - A final answer after the reasoning
 
 - The UI shows the reasoning in an expandable box and the final response below it
 
