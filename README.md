@@ -23,7 +23,7 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 
 - DeepSeek-R1 model pulled in Ollama:
 
-ollama pull deepseek-r1
+        ollama pull deepseek-r1
 
 ## 📦 Installation
 
