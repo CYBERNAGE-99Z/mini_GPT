@@ -34,7 +34,7 @@ This chatbot features a real-time thinking phase, response streaming, and an int
 
 - Install dependencies
 
-            pip install streamlit ollama
+        pip install streamlit ollama
 
 - Run Ollama server
 
